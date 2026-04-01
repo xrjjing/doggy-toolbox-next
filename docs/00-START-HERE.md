@@ -25,6 +25,18 @@
 - 你真正还缺的是 **Wails CLI**
 
 ---
+## 2.5 当前仓库边界
+
+这个项目现在已经是独立 GitHub 仓库：
+
+- `https://github.com/xrjjing/doggy-toolbox-next`
+
+请把它理解为：
+
+- 旧项目 `doggy-toolbox`：功能参考与迁移对照
+- 新项目 `doggy-toolbox-next`：正式重写主战场
+
+---
 
 ## 3. 为什么这次选 Wails + Vue 3 + TypeScript + Go
 
