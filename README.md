@@ -51,10 +51,11 @@
 ## 阅读顺序
 
 1. `docs/00-START-HERE.md`
-2. `docs/01-分阶段重写路线.md`
-3. `docs/02-目录结构与配置说明.md`
-4. `docs/03-启动与验证流程.md`
-5. `docs/README.md`
+2. `docs/05-第一阶段详细执行步骤.md`
+3. `docs/01-分阶段重写路线.md`
+4. `docs/02-目录结构与配置说明.md`
+5. `docs/03-启动与验证流程.md`
+6. `docs/README.md`
 
 ## 当前仓库状态
 
