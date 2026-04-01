@@ -1,37 +1,55 @@
-# macOS
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# 打包产物
+build/
+dist/
+*.egg-info/
+*.egg
+*.spec
+
+# 日志与临时文件
+*.log
+*.tmp
+*.swp
 .DS_Store
 
 # IDE
 .idea/
 .vscode/
 
-# Go
-bin/
-coverage.out
-*.test
-*.exe
-*.dll
-*.so
-*.dylib
+# 测试覆盖率
+.coverage
+htmlcov/
+.pytest_cache/
 
-# Wails build outputs
-build/bin/
-dist/
+# 数据库文件（用户数据，不纳入版本控制）
+doggy_toolbox.db
+_json_backup/
 
-# Node / Vue / Vite
-frontend/node_modules/
-frontend/dist/
-frontend/.vite/
-frontend/coverage/
+# 覆盖率与测试相关
+.coverage
+htmlcov/
+.pytest_cache/
 
-# Logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
+/.spec-workflow/
+/.serena/
+/.roo/
+/.claude/
+/.snow/
+docs/
 
-# Env
-.env
-.env.*
-!.env.example
+# 测试文件（仅开发时使用）
+tests/
+**/tests/
+test_*.py
+*_test.py
+*.test.js
+tests/desktop_tools_*.test.js
+.ace-tool/
